@@ -1,0 +1,6 @@
+---
+- name: Create /testfile
+  hosts: all
+  tasks:
+    - name: Create a file in the home directory
+      command: touch /testfile
