@@ -1,6 +1,6 @@
 ---
-- name: create /testfile
+- name: touch /testfile
   hosts: all
   tasks:
-    - name: create /testfile
+    - name: touch /testfile
       command: touch /testfile
